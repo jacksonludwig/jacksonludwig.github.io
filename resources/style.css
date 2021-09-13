@@ -12,12 +12,12 @@ section > div {
 
 body {
     /* background-color: #efefef; */
-    font-family: "Inconsolata", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Inconsolata", "SF Mono", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #444;
 }
 
 pre > code {
-    font-family: "Inconsolata", "Source Code Pro", "Sans Mono", "Consolas", "Courier", monospace;
+    font-family: "Inconsolata", "SF Mono", "Source Code Pro", "Sans Mono", "Consolas", "Courier", monospace;
 }
 
 h1 {
