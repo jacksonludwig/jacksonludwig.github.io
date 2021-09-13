@@ -34,6 +34,33 @@
                 <p>Some snapshots of my personal projects. For more examples please see my <a target="_blank" href="https://github.com/jacksonludwig">GitHub</a>.</p>
             </div>
 
+            <div class="snippet-item" id="go-example">
+                <pre><code class="go">
+func sendTeams(sess *discordgo.Session, mess *discordgo.MessageCreate, names []discordgo.User) error {
+    users := getUsernames(names)      // helper get username function
+    teams,err := decideTeams(users)   // helper randomize teams function
+    if err != nil {
+        return err
+    }
+
+    var msg string
+    for i := 0; i &#60; len(teams); i++ {
+        msg = msg + fmt.Sprintf("Team %d: ", i)
+        for j := 0; j &#60; len(teams[i]); j++ {
+            msg = msg + teams[i][j] + " | "
+        }
+        msg += "\n"
+    }
+
+    sess.ChannelMessageSend(mess.ChannelID, msg)
+    return nil
+}
+                </code></pre>
+            </div>
+            <div id="go-desc" class="snippet-item">
+                <p>From my golang <a target="_blank" href="https://discord.com/">Discord</a> bot. This bot makes random, balanced teams out of people inside of Discord voice channels. This function formats the teams into text to be sent to users.<br><a class="project-link" href="https://github.com/jacksonludwig/SmiteBotBetter" target="_blank">repo link</a></p>
+            </div>
+
             <div class="snippet-item" id="rust-example">
                 <pre><code class="rust">
 /// Generates an MD5-Hashed signature required for API queries.
@@ -95,7 +122,7 @@ async def help(context):
                 </code></pre>
             </div>
             <div id="python-desc" class="snippet-item">
-                <p>From my <a target="_blank" href="https://discord.com/">Discord</a> bot. This async function creates the UI that the user will see when they execute the "help" command.<br><a class="project-link" href="https://github.com/jacksonludwig/SmiteBotBetter" target="_blank">repo link</a></p>
+                <p>From my python <a target="_blank" href="https://discord.com/">Discord</a> bot. This async function creates the UI that the user will see when they execute the "help" command.<br><a class="project-link" href="https://github.com/jacksonludwig/SmiteBotBetter" target="_blank">repo link</a></p>
             </div>
 
              <hr>
