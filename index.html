@@ -45,6 +45,7 @@
 func sendTeams(sess *discordgo.Session, mess *discordgo.MessageCreate, names []discordgo.User) error {
     users := getUsernames(names)      // helper get username function
     teams,err := decideTeams(users)   // helper randomize teams function
+
     if err != nil {
         return err
     }
