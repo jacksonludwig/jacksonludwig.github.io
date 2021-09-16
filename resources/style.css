@@ -127,6 +127,7 @@ hr {
   margin-bottom: 0em;
   font-style: italic;
   font-weight: normal;
+  margin-right: auto;
 }
 
 .colored-header-1 {
@@ -139,4 +140,16 @@ hr {
 .date {
   font-weight: normal;
   font-size: 1.2;
+}
+
+.location {
+  font-size: 1.1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.job-title-location, .education-title-location {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
