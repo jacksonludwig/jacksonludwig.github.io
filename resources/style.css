@@ -157,3 +157,7 @@ hr {
   flex-direction: row;
   justify-content: end;
 }
+
+#degree-1-title {
+  margin-bottom: 1em;
+}
