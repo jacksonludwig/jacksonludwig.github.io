@@ -134,3 +134,8 @@ hr {
   padding-left: 0.3em;
   color: white;
 }
+
+.date {
+  font-weight: normal;
+  font-size: 1.2;
+}
