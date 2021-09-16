@@ -91,16 +91,22 @@ hr {
     padding: 0;
 }
 
-.university-header {
+.university-header, .work-header {
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
 
-.university-title {
+.university-title, .work-title {
   margin-right: auto;
 }
 
-#education-header {
+#education-header, #experience-header {
   margin-bottom: .4em;
+}
+
+.job-title {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-style: italic;
 }
