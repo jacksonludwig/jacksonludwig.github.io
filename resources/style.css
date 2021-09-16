@@ -121,6 +121,10 @@ hr {
   text-decoration: underline;
 }
 
+#education-header {
+  margin-top: 0em;
+}
+
 .job-title,
 .degree-title {
   margin-top: 0em;
