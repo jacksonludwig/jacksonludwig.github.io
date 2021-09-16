@@ -101,8 +101,8 @@ hr {
   margin-right: auto;
 }
 
-#education-header, #experience-header {
-  margin-bottom: .4em;
+#education-header, #experience-header, #summary-head, #snippet-title {
+  margin-bottom: 0em;
 }
 
 .job-title {
