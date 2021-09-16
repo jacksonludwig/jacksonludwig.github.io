@@ -109,12 +109,20 @@ hr {
   margin-right: auto;
 }
 
-#education-header, #experience-header, #summary-head, #snippet-title {
+#education-header, #experience-header, #summary-head, #snippet-header {
   margin-bottom: 0em;
+  text-decoration: underline;
 }
 
-.job-title {
+.job-title, .degree-title {
   margin-top: 0em;
   margin-bottom: 0em;
   font-style: italic;
+}
+
+.colored-header-1 {
+  background: #C26868;
+  border-radius: .3em;
+  padding-left: .3em;
+  color: white;
 }
