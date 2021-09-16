@@ -90,3 +90,17 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+.university-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.university-title {
+  margin-right: auto;
+}
+
+#education-header {
+  margin-bottom: .4em;
+}
