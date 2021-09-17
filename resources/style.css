@@ -74,14 +74,14 @@ a:hover {
   font-size: 1.2em;
 }
 
-.container {
+.icon-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 15px;
 }
 
-.container > div {
+.icon-container > div {
   text-align: center;
 }
 
