@@ -152,7 +152,8 @@ hr {
   margin-bottom: 0em;
 }
 
-.job-title-location, .education-title-location {
+.job-title-location,
+.education-title-location {
   display: flex;
   flex-direction: row;
   justify-content: end;
