@@ -121,8 +121,8 @@ hr {
   text-decoration: underline;
 }
 
-#education-header {
-  margin-top: 0em;
+#experience-header {
+  margin-top: 1.5em;
 }
 
 .job-title,
@@ -161,4 +161,15 @@ hr {
 
 #degree-1-title {
   margin-bottom: 1em;
+}
+
+.summary-content {
+  display: flex;
+  justify-content: center;
+}
+
+#personal-photo {
+  border-radius: 50%;
+  height: auto;
+  max-width: 30%;
 }
